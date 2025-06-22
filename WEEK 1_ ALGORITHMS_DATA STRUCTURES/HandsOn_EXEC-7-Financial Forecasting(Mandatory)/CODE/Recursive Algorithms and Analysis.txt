@@ -1,0 +1,17 @@
+#Recursive Algorithms
+
+-->Recurison is a method of solving problems where a function calls itself as a subroutine.
+--> This allows the function to be repeated several times as it breaks down the problem into smaller, more manageable parts.
+
+** In financial forecasting, recursion can help model scenarios like compound growth, where each period's value depends on the previous period. 
+
+To calculate the future value we have a formula to ue :
+ FV = PV * (1 + r)^n
+
+
+#Analyis 
+
+*TIme complexity:
+->The recursive function runs once for each year:
+  ->So T(n) = T(n-1) + O(1) → O(n) time complexity.
+*Space complexity is also O(n) due to the call stack depth.

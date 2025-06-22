@@ -1,0 +1,20 @@
+#Singly Linked List:
+
+->Each node contains data and a reference to the next node.
+->Can only be traversed in one direction.
+->Efficient in insertions and deletions (especially at the beginning).
+
+# Doubly LinkedList
+->Each node has references to both the previous and next nodes.
+->Allows traversal in both directions.
+->Uses more memory due to the extra pointer.
+
+
+# Analysis
+
+| Operation      | Time Complexity |
+| -------------- | --------------- |
+| Add Task       | O(n) (to end)   |
+| Search Task    | O(n)            |
+| Delete Task    | O(n)            |
+| Traverse Tasks | O(n)            |

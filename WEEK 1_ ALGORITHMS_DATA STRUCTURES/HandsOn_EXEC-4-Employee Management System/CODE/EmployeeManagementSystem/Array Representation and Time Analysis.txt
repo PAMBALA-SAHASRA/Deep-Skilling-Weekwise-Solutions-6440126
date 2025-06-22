@@ -1,0 +1,18 @@
+# Array Representation in Memory
+->Arrays in memory are stored in contiguous memory locations.
+->Each element is accessed using an index (base address + index × size of element).
+*Advantages
+->Fast access using index: O(1) time.
+->Easy to implement and manage for a fixed number of records.
+->Cache-friendly due to continuous memory allocation.
+
+# Time Complexity Analysis
+---------------------------------------------------------------------------------
+| Operation    | Time Complexity |          Explanation                         |
+| ------------ | --------------- | -------------------------------------------- |
+| Add          | O(1)            | Add to next empty slot (if array not full).  |
+| Search       | O(n)            | Linear search (no index mapping or sorting). |
+| Traverse     | O(n)            | Visit each element once.                     |
+| Delete       | O(n)            | Find and shift elements to fill gap.         |
+---------------------------------------------------------------------------------
+

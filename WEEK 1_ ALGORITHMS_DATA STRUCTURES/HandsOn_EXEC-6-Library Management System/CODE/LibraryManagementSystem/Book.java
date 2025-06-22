@@ -1,0 +1,30 @@
+package LibraryManagementSystem;
+
+public class Book {
+    int bookId;
+    String title;
+    String author;
+
+    public Book(int bookId, String title, String author) {
+        this.bookId = bookId;
+        this.title = title;
+        this.author = author;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    @Override
+    public String toString() {
+        return "[" + bookId + "] " + title + " by " + author;
+    }
+}

@@ -1,0 +1,34 @@
+1.Understanding Asymptotic Notation
+-> Big O Notation helps in analyzing how the time or space complexity of an algorithm grows with input size.
+-> It ignores constants and lower-order terms, focusing on the dominant factor that affects performance as n → ∞.
+
+Big O	     Name	               Example Algorithm
+O(1)	     Constant Time	       Accessing array index
+O(n)	     Linear Time	       Linear search
+O(log n)	 Logarithmic Time	   Binary search
+
+#Search Scenarios:
+
+*Best Case:
+Linear Search: First item matches → O(1)
+Binary Search: Middle item matches → O(1)
+
+*Average Case:
+Linear: Element found halfway through → O(n/2) = O(n)
+Binary: ~log₂n comparisons → O(log n)
+
+*Worst Case:
+Linear: Element not found or last item → O(n)
+Binary: Element not found after full log₂n splits → O(log n)
+
+
+# Analysis
+Time Complexity comparison
+Algorithm	      Best Case	       Average Case	             Worst Case
+Linear Search	  O(1)	           O(n)	                     O(n)
+Binary Search	  O(1)	           O(log n)	                 O(log n)
+
+# Suitability of the algorithm for the platform developed
+-> If the product list is large and sorted, binary search is far more efficient due to its O(log n) time.
+-> If the data is unsorted or changes frequently, linear search may be preferred unless you sort first.
+

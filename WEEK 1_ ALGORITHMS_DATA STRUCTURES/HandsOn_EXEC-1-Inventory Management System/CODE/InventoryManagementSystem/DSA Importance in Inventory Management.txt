@@ -1,0 +1,29 @@
+#Understand the Problem
+Why are Data Structures and Algorithms Important in Inventory Management?
+->Efficient inventory systems need quick access to product information like availability, pricing, or stock levels. Without the right data structures, operations like searching for a product or updating quantities can become slow, especially as the inventory grows.
+->Algorithms ensure these operations (search, insert, delete) are done in minimal time. For example, using a linear search on an array of 10,000 items is inefficient; a hash-based lookup can reduce it to near constant time.
+
+#Suitable Data Structures for This Problem
+*ArrayList – Easy to use, but search/update/delete is O(n) in worst case.
+
+*HashMap – Best suited if productId is used as a key. Offers O(1) time complexity for most operations (add, update, delete).
+
+*TreeMap – If sorted order is needed.
+
+==>Chosen: We'll use HashMap<String, Product> for fast access using productId.
+
+# Analysis
+*Time Complexity of Operations (Using HashMap):
+
+Operation	      Method Used	                   Time Complexity
+Add Product	      put()	                           O(1)
+Update Product	  get() + setters	               O(1)
+Delete Product	  remove()	                       O(1)
+Display All	      values() iteration	           O(n)
+
+How to Optimize Further:
+->If the inventory becomes distributed (multiple warehouses), using a database would be essential.
+
+->Adding indexing or caching can help if products need to be queried by other attributes like name or price range.
+
+->For real-time large-scale systems, consider concurrent data structures or NoSQL solutions.

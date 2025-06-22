@@ -1,0 +1,25 @@
+# Understand Search Algorithms
+*Linear Search
+
+Definition: Linear search is a simple search algorithm where each element is checked one by one until the target is found.
+Best case: O(1) (first element is a match)
+Worst case: O(n) (last element or not found)
+
+*Binary Search
+Definition: Binary search repeatedly divides a sorted list to find the target. It compares the target with the middle element.
+Best case: O(1)
+Worst case: O(log n)
+Requirement: List must be sorted (e.g., by title).
+
+*Use Linear Search when:
+
+->Data is small
+->No time to sort
+->Insertions/deletions happen frequently
+
+*Use Binary Search when:
+
+->You can maintain a sorted list
+->You’re searching frequently
+->Dataset is large (saves time)
+

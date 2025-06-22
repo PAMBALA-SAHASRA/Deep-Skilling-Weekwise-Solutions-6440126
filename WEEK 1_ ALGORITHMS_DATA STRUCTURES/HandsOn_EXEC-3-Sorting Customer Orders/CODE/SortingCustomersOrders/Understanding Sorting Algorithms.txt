@@ -1,0 +1,27 @@
+🔹Bubble Sort:
+->Repeatedly swaps adjacent elements if they are in the wrong order.
+->Time Complexity: O(n²)
+*Best for: Small or nearly sorted datasets.
+
+🔹 Insertion Sort (for info):
+->Builds sorted list by inserting elements into correct positions.
+->Time Complexity: O(n²)
+
+🔹 Quick Sort:
+->Divide-and-conquer algorithm that partitions the array.
+->Average Time Complexity: O(n log n)
+->Worst-case: O(n²) but rarely happens with good pivot choice.
+
+🔹 Merge Sort (for info):
+->Recursively splits and merges arrays.
+->Time Complexity: O(n log n)
+
+
+| Algorithm       | Best       | Average    | Worst   |
+| --------------- | ---------- | ---------- | ------- |
+|   Bubble Sort   | O(n)       | O(n²)      | O(n²)   |
+|   Quick Sort    | O(n log n) | O(n log n) | O(n²)\* |
+
+
+*Quick Sort is generally preferred over Bubble Sort because it is faster, more efficient, and scales better with data size.
+
