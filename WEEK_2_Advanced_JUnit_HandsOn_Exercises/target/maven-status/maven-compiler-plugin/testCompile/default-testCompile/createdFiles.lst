@@ -1,0 +1,5 @@
+com\sahasra\junit\EvenCheckerTest.class
+com\sahasra\junit\OrderedTests.class
+com\sahasra\junit\AllTests.class
+com\sahasra\junit\PerformanceTesterTest.class
+com\sahasra\junit\ExceptionThrowerTest.class
