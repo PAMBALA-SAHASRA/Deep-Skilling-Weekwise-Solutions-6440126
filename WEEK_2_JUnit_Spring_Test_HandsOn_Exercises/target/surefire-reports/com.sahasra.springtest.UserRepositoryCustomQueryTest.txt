@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sahasra.springtest.UserRepositoryCustomQueryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.832 s -- in com.sahasra.springtest.UserRepositoryCustomQueryTest

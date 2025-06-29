@@ -1,0 +1,9 @@
+com\sahasra\springtest\GlobalExceptionHandlerTest.class
+com\sahasra\springtest\UserServiceTest.class
+com\sahasra\springtest\UserServiceExceptionTest.class
+com\sahasra\springtest\CalculatorServiceParamTest.class
+com\sahasra\springtest\CalculatorServiceTest.class
+com\sahasra\springtest\UserIntegrationTest.class
+com\sahasra\springtest\UserPostControllerTest.class
+com\sahasra\springtest\UserRepositoryCustomQueryTest.class
+com\sahasra\springtest\UserControllerTest.class
