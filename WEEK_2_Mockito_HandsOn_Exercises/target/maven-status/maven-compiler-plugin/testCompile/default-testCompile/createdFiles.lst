@@ -1,0 +1,7 @@
+com\sahasra\mockito\VerifyInteractionTest.class
+com\sahasra\mockito\VoidMethodExceptionTest.class
+com\sahasra\mockito\MyServiceTest.class
+com\sahasra\mockito\InteractionOrderTest.class
+com\sahasra\mockito\VoidMethodInvocationTest.class
+com\sahasra\mockito\MultipleReturnsTest.class
+com\sahasra\mockito\ArgumentMatchingTest.class
