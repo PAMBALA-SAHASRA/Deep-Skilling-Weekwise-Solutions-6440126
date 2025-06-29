@@ -1,0 +1,9 @@
+10:46:48.038 [main] ERROR c.s.logging.Exercise1_LoggingExample - This is an error message
+10:46:48.047 [main] WARN  c.s.logging.Exercise1_LoggingExample - This is a warning message
+10:52:41.710 [com.sahasra.logging.Exercise1_LoggingExample.main()] ERROR c.s.logging.Exercise1_LoggingExample - This is an error message
+10:52:41.714 [com.sahasra.logging.Exercise1_LoggingExample.main()] WARN  c.s.logging.Exercise1_LoggingExample - This is a warning message
+10:54:35.646 [com.sahasra.logging.Exercise2_ParameterizedLogging.main()] INFO  c.s.l.Exercise2_ParameterizedLogging - User Sahasra has 5 unread messages
+10:55:17.768 [com.sahasra.logging.Exercise3_AppenderExample.main()] INFO  c.s.l.Exercise3_AppenderExample - This message should appear in both console and file.
+11:01:10.733 [com.sahasra.logging.Exercise2_ParameterizedLogging.main()] INFO  c.s.l.Exercise2_ParameterizedLogging - User Sahasra has 5 unread messages
+11:01:44.935 [com.sahasra.logging.Exercise1_LoggingExample.main()] ERROR c.s.logging.Exercise1_LoggingExample - This is an error message
+11:01:44.939 [com.sahasra.logging.Exercise1_LoggingExample.main()] WARN  c.s.logging.Exercise1_LoggingExample - This is a warning message
