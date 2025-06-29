@@ -1,0 +1,5 @@
+com\sahasra\mockito\ApiServiceTest.class
+com\sahasra\mockito\FileServiceTest.class
+com\sahasra\mockito\ServiceTest.class
+com\sahasra\mockito\MultiReturnServiceTest.class
+com\sahasra\mockito\NetworkServiceTest.class

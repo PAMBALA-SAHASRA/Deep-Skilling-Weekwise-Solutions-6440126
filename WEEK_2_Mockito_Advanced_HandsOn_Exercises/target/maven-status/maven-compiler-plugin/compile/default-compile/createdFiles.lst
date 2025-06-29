@@ -1,0 +1,10 @@
+com\sahasra\mockito\ApiService.class
+com\sahasra\mockito\FileReader.class
+com\sahasra\mockito\NetworkClient.class
+com\sahasra\mockito\MultiReturnService.class
+com\sahasra\mockito\NetworkService.class
+com\sahasra\mockito\Repository.class
+com\sahasra\mockito\FileWriter.class
+com\sahasra\mockito\Service.class
+com\sahasra\mockito\RestClient.class
+com\sahasra\mockito\FileService.class
