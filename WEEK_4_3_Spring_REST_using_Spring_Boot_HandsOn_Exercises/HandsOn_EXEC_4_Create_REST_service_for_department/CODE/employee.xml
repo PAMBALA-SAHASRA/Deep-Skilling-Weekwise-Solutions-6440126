@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Departments -->
+    <bean id="department1" class="com.cognizant.spring_rest.model.Department">
+        <constructor-arg value="D001"/>
+        <constructor-arg value="Engineering"/>
+    </bean>
+
+    <bean id="department2" class="com.cognizant.spring_rest.model.Department">
+        <constructor-arg value="D002"/>
+        <constructor-arg value="HR"/>
+    </bean>
+
+    <bean id="department3" class="com.cognizant.spring_rest.model.Department">
+        <constructor-arg value="D003"/>
+        <constructor-arg value="Finance"/>
+    </bean>
+
+    <!-- List of Departments -->
+    <bean id="departmentList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="department1"/>
+                <ref bean="department2"/>
+                <ref bean="department3"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

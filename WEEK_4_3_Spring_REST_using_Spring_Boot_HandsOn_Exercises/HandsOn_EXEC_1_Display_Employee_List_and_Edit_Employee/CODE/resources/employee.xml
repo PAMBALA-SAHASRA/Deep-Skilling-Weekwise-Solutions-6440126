@@ -1,0 +1,53 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Departments -->
+    <bean id="department1" class="com.cognizant.spring_rest.model.Department">
+        <constructor-arg value="D001"/>
+        <constructor-arg value="Engineering"/>
+    </bean>
+
+    <bean id="department2" class="com.cognizant.spring_rest.model.Department">
+        <constructor-arg value="D002"/>
+        <constructor-arg value="HR"/>
+    </bean>
+
+    <!-- Employee 1 -->
+    <bean id="employee1" class="com.cognizant.spring_rest.model.Employee">
+        <constructor-arg value="E01"/>
+        <constructor-arg value="Aliaa"/>
+        <constructor-arg ref="department1"/>
+        <constructor-arg>
+            <list>
+                <value>Java</value>
+                <value>Spring Boot</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <!-- Employee 2 -->
+    <bean id="employee2" class="com.cognizant.spring_rest.model.Employee">
+        <constructor-arg value="E02"/>
+        <constructor-arg value="Bobby"/>
+        <constructor-arg ref="department2"/>
+        <constructor-arg>
+            <list>
+                <value>Communication</value>
+                <value>Recruitment</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <!-- Employee List -->
+    <bean id="employeeList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="employee1"/>
+                <ref bean="employee2"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+</beans>

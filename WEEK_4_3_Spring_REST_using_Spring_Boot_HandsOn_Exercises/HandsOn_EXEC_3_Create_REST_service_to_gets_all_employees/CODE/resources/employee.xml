@@ -1,0 +1,77 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Departments -->
+    <bean id="deptEng" class="com.cognizant.spring_rest.model.Department">
+        <constructor-arg value="D001"/>
+        <constructor-arg value="Engineering"/>
+    </bean>
+
+    <bean id="deptHR" class="com.cognizant.spring_rest.model.Department">
+        <constructor-arg value="D002"/>
+        <constructor-arg value="Human Resources"/>
+    </bean>
+
+    <!-- Employees -->
+    <bean id="emp1" class="com.cognizant.spring_rest.model.Employee">
+        <constructor-arg value="E01"/>
+        <constructor-arg value="Aliaa"/>
+        <constructor-arg ref="deptEng"/>
+        <constructor-arg>
+            <list>
+                <value>Java</value>
+                <value>Spring</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="emp2" class="com.cognizant.spring_rest.model.Employee">
+        <constructor-arg value="E02"/>
+        <constructor-arg value="Bobby"/>
+        <constructor-arg ref="deptHR"/>
+        <constructor-arg>
+            <list>
+                <value>Recruitment</value>
+                <value>Communication</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="emp3" class="com.cognizant.spring_rest.model.Employee">
+        <constructor-arg value="E03"/>
+        <constructor-arg value="Cherry"/>
+        <constructor-arg ref="deptEng"/>
+        <constructor-arg>
+            <list>
+                <value>Java</value>
+                <value>React</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="emp4" class="com.cognizant.spring_rest.model.Employee">
+        <constructor-arg value="E04"/>
+        <constructor-arg value="Diasy"/>
+        <constructor-arg ref="deptHR"/>
+        <constructor-arg>
+            <list>
+                <value>Onboarding</value>
+                <value>Compliance</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <!-- Employee List -->
+    <bean id="employeeList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="emp1"/>
+                <ref bean="emp2"/>
+                <ref bean="emp3"/>
+                <ref bean="emp4"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>
