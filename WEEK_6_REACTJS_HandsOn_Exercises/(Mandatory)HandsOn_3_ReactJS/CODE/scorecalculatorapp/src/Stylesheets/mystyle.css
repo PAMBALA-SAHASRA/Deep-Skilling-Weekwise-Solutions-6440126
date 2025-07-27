@@ -1,0 +1,44 @@
+.score-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  color: brown;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.name-label {
+  color: blue;
+}
+
+.name-value {
+  color: #6a5acd; 
+}
+
+.school-label, .total-label {
+  color: red;
+}
+
+.school-value {
+  color: #d87093; 
+}
+
+.total-value {
+  color: #333;
+}
+
+.score-label {
+  color: green;
+}
+
+.score-value {
+  color: #32cd32; 
+}
